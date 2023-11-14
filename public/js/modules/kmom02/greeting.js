@@ -11,10 +11,10 @@ function getGreeting () {
   const today = new Date()
 
   if (today.getHours() > 12) {
-    return 'God eftermiddag'
+    return 'God eftermiddag!'
   }
   if (today.getHours() < 12) {
-    return 'God förmiddag'
+    return 'God förmiddag!'
   }
   return 'God Lunch!'
 }
