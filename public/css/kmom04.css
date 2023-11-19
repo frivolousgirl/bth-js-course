@@ -1,0 +1,47 @@
+.box-item {
+  position: absolute;
+}
+
+.center {
+  top: 50%;
+  left: 50%;
+}
+
+.red {
+  background-color: red;
+}
+.orange {
+  background-color: orange;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.purple {
+  background-color: purple;
+}
+.palevioletred {
+  background-color: palevioletred;
+}
+
+.size200 {
+  height: 200px;
+  width: 200px;
+}
+
+.selected {
+  border: 3px solid #000;
+}
+
+.animateSize {
+  transition: width 1s, height 1s;
+}
+
+.circle {
+  border-radius: 50%;
+}

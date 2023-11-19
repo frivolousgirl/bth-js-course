@@ -33,6 +33,7 @@ const navbar = `<ul>
         <li><a href="om.html" class="${filename === 'om.html' ? 'active' : ''}">Om</a></li>
         <li><a href="kmom02.html" class="${filename === 'kmom02.html' ? 'active' : ''}">Kmom02</a></li>
         <li><a href="kmom03.html" class="${filename === 'kmom03.html' ? 'active' : ''}">Kmom03</a></li>
+        <li><a href="kmom04.html" class="${filename === 'kmom04.html' ? 'active' : ''}">Kmom04</a></li>
       </ul>`
 
 document.getElementById('navbar').innerHTML = navbar
